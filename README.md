@@ -4,7 +4,7 @@ Este é o meu projeto de currículo online desenvolvido com **HTML, CSS e JavaSc
 
 ## 🌐 Visite o site
 
-➡️ [Clique aqui para acessar o currículo online](https://seu-link-aqui.com) *(ainda não publicado)*
+➡️ [Clique aqui para acessar o currículo online](https://leticiabrondi.github.io/CurriculoVirtual/) 
 
 ---
 
