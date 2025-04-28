@@ -408,94 +408,153 @@ footer {
 }
 
 /* pagina inicial (index) */
-/* --- CONTEÚDO DA PÁGINA INICIAL --- */
+
 .container-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    text-align: center;
-    margin-top: 100px; /* Para compensar o header fixo */
+    height: 100%;
 }
 
-.content-principal h1 {
-    font-size: 2.5rem;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
+.content-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center;     /* Centraliza o conteúdo horizontalmente */
+    height: calc(100vh - 80px);           /* Garantir que ocupe a tela inteira */
+    text-align: center;
+
+}
+
+/* Nome centralizado */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+/* Estilo do efeito de digitação */
+.typing-animation {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.typed-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #fff;
+    border-right: 2px solid #fff;
+    padding-right: 5px;
+    display: flex;
+    white-space: nowrap; /* Impede a quebra de linha */
+    justify-content: center;
 }
 
 .social-icons {
     margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .social-icons a {
-    color: #f0f0f0;
-    font-size: 2rem;
+    color: #fff;
     margin: 0 15px;
-    transition: color 0.3s;
+    font-size: 2rem;
+    transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: #9253e0;
+    color: #9253e0; 
 }
 
-/* Animação de digitação e apagamento */
-.typing-animation {
-    margin-top: 20px;
-}
-
-.typed-text {
-    font-size: 1.8rem;
+/* --- CONTATO --- */
+#contato {
+    background-color: #151547;
     color: #f0f0f0;
-    font-weight: 500;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid #f0f0f0;
-    width: 0;
-    animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
-    display: inline-block;
+    padding: 60px 20px;
+    text-align: center;
 }
 
-/* Animação de digitação */
-@keyframes typing {
-    0% {
-        width: 0;
-    }
-    50% {
-        width: 100%;
-    }
-    100% {
-        width: 0;
-    }
+#contato h2 {
+    color: #9253e0;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
-/* Animação de piscar o cursor */
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
+#contato p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #e0e0e0;
 }
 
-/* --- RESPONSIVO --- */
-@media (max-width: 768px) {
-    .nav-bar {
-        flex-direction: column;
-        align-items: center;
-    }
+.form-group {
+    margin-bottom: 20px;
+}
 
-    .menu-links {
-        flex-direction: column;
-        gap: 10px;
-    }
+label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+}
 
-    .social-icons a {
-        font-size: 1.8rem;
-    }
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #9253e0;
+    border-radius: 5px;
+    background-color: #363670;
+    color: #f0f0f0;
+    font-size: 1rem;
+}
 
-    .typed-text {
-        font-size: 1.5rem;
-    }
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #9253e0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #7e5c8a;
+    transform: scale(1.05);
+}
+
+.social-media {
+    margin-top: 30px;
+}
+
+.social-media h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+}
+
+.social-media a {
+    color: #9253e0;
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #7e5c8a;
 }
 
