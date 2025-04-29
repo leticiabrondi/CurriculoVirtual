@@ -1,0 +1,84 @@
+/* --- CONTATO --- */
+#contato {
+    background-color: #151547;
+    color: #f0f0f0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contato h2 {
+    color: #9253e0;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#contato p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #9253e0;
+    border-radius: 5px;
+    background-color: #363670;
+    color: #f0f0f0;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #9253e0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #7e5c8a;
+    transform: scale(1.05);
+}
+
+.social-media {
+    margin-top: 30px;
+}
+
+.social-media h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+}
+
+.social-media a {
+    color: #9253e0;
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #7e5c8a;
+}

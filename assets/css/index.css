@@ -1,0 +1,62 @@
+/* pagina inicial (index) */
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.typing-animation {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.typed-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #fff;
+    border-right: 2px solid #fff;
+    padding-right: 5px;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #9253e0;
+}
