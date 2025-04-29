@@ -4,95 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> PROJETOS | Dev. Letícia Brondi </title>
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/projetos.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/projetos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="nav-bar">
-            <div class="nav-left">
-                <h1>Dev. Letícia Brondi</h1>
-                <h3>Currículo Virtual</h3>
-            </div>
-            <div class="nav-right">
-                <ul class="menu-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre mim</a></li>
-                    <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="curriculo.html">Currículo</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-                <div class="nav-social">
-                    <a href="https://github.com/leticiabrondi" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/leticiabrondi" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.behance.com/leticiabrondi" target="_blank"><i class="fab fa-behance"></i></a>
-                    <a href="mailto:leticiabrondi06@gmail.com"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-        </div>
-    </header>
+  <div data-include="../assets/components/header.html"></div>  
+
     <div id="projectCarousel" class="carousel-container">
-        <!-- Cards do Carrossel -->
         <div class="carousel-wrapper">
           <div class="carousel-item">
             <div class="card">
-              <img class="card-img-top" src="assets/img/projetos/projeto.png" alt="Card image cap">
+              <img class="card-img-top" src="../assets/img/projetos/projeto.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Projeto 1</h5>
                 <p class="card-text">Este é um card mais largo com texto de apoio abaixo como uma introdução natural para conteúdo adicional. O conteúdo é um pouco mais longo.</p>
-                <a href="link-do-projeto1.html" class="btn btn-primary">Ver Projeto</a>
+                <a href="" class="btn btn-primary">Ver Projeto</a>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="card">
-              <img class="card-img-top" src="assets/img/projetos/projeto.png" alt="Card image cap">
+              <img class="card-img-top" src="../assets/img/projetos/projeto.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Projeto 2</h5>
                 <p class="card-text">Este é um card mais largo com texto de apoio abaixo como uma introdução natural para conteúdo adicional. O conteúdo é um pouco mais longo.</p>
-                <a href="link-do-projeto2.html" class="btn btn-primary">Ver Projeto</a>
+                <a href="" class="btn btn-primary">Ver Projeto</a>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="card">
-              <img class="card-img-top" src="assets/img/projetos/projeto.png" alt="Card image cap">
+              <img class="card-img-top" src="../assets/img/projetos/projeto.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Projeto 3</h5>
                 <p class="card-text">Este é um card mais largo com texto de apoio abaixo como uma introdução natural para conteúdo adicional. O conteúdo é um pouco mais longo.</p>
-                <a href="link-do-projeto3.html" class="btn btn-primary">Ver Projeto</a>
+                <a href="" class="btn btn-primary">Ver Projeto</a>
               </div>
             </div>
           </div>
-          <!-- Adicione mais projetos conforme necessário -->
         </div>
       
         <!-- Botões de navegação -->
         <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
         <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
-      </div>              
-    <footer>
-        <div class="footer-container">
-            <p>&copy; 2025 Dev. Letícia Brondi</p>
-    
-            <ul class="footer-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre mim</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="curriculo.html">Currículo</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-    
-            <div class="footer-social">
-                <a href="https://github.com/leticiabrondi" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/leticiabrondi" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.behance.com/leticiabrondi" target="_blank"><i class="fab fa-behance"></i></a>
-                <a href="mailto:leticiabrondi06@gmail.com"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/js/carrosel.js"></script>
-    <script src="assets/js/maquina.js"></script>
+
+      </div>
+
+      <div data-include="../assets/components/footer.html"></div>
+
+    <script src="../assets/js/include.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/form.js"></script>
+    <script src="../assets/js/carrosel.js"></script>
+    <script src="../assets/js/maquina.js"></script>
+
 </body>
 </html>
