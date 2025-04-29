@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,27 @@
     <link rel="stylesheet" href="../assets/css/curriculo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    <div data-include="../assets/components/header.html"></div>  
-    
+    <div data-include="../assets/components/header.html"></div>
+
+    <section id="dashboard">
+        <div class="dashboard-buttons">
+            <button onclick="scrollToSection('hard-skills')">Hard Skills</button>
+            <button onclick="scrollToSection('soft-skills')">Soft Skills</button>
+            <button onclick="scrollToSection('certificados')">Cursos e Certificações</button>
+        </div>
+    </section>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
     <main class="curriculo-container">
-        <section class="skills-section">
+        <section id="hard-skills" class="skills-section">
             <h2>Hard Skills</h2>
             <div class="skills-grid">
                 <div class="skill-card"><i class="fab fa-html5"></i><span>HTML5</span></div>
@@ -23,15 +40,19 @@
                 <div class="skill-card"><i class="fab fa-github"></i><span>GitHub</span></div>
                 <div class="skill-card"><i class="fab fa-figma"></i><span>Figma</span></div>
                 <div class="skill-card"><i class="fa fa-database"></i><span>SQLite</span></div>
-                <div class="skill-card"><img src="../assets/img/icons/powerbi.png" alt="Power BI"><span>Power BI</span></div>
-                <div class="skill-card"><img src="../assets/img/icons/photoshop.png" alt="Photoshop"><span>Photoshop</span></div>
-                <div class="skill-card"><img src="../assets/img/icons/illustrator.png" alt="Illustrator"><span>Illustrator</span></div>
-                <div class="skill-card"><img src="../assets/img/icons/premiere.png" alt="Adobe Premiere Pro"><span>Adobe Premiere Pro</span></div>
+                <div class="skill-card"><img src="../assets/img/icons/powerbi.png" alt="Power BI"><span>Power BI</span>
+                </div>
+                <div class="skill-card"><img src="../assets/img/icons/photoshop.png"
+                        alt="Photoshop"><span>Photoshop</span></div>
+                <div class="skill-card"><img src="../assets/img/icons/illustrator.png"
+                        alt="Illustrator"><span>Illustrator</span></div>
+                <div class="skill-card"><img src="../assets/img/icons/premiere.png" alt="Adobe Premiere Pro"><span>Adobe
+                        Premiere Pro</span></div>
             </div>
         </section>
-        
 
-        <section class="skills-section">
+
+        <section id="soft-skills" class="skills-section">
             <h2>Soft Skills</h2>
             <div class="soft-skills-grid">
                 <div class="skill-card">
@@ -70,6 +91,43 @@
         </section>
     </main>
 
+    <section id="certificados" class="curriculo-container">
+        <h2>Cursos e Certificações</h2>
+        <div class="certificados-container">
+            <div class="certificado">
+                <i class="fa-brands fa-python"></i>
+                <p><strong>Meninas programadoras I e II</strong></p>
+                <p>Aprendi lógica de programação, estruturas de dados e automação com Python.</p>
+                <div class="tags">
+                    <span>#Python</span>
+                    <span>#USP</span>
+                </div>
+                <a href="link-certificado-python" target="_blank" class="btn-certificado">Acessar</a>
+            </div>
+            <div class="certificado">
+                <i class="fa-brands fa-git-alt"></i>
+                <p><strong>Controle de Versão com Git e GitHub</strong></p>
+                <p>Entendi como versionar projetos, trabalhar com branches e colaborar em equipe usando Git e GitHub.</p>
+                <div class="tags">
+                    <span>#Git</span>
+                    <span>#GitHub</span>
+                    <span>#FGV</span>
+                </div>
+                <a href="link-certificado-git" target="_blank" class="btn-certificado">Acessar</a>
+            </div>
+            <div class="certificado">
+                <i class="fa-solid fa-microchip"></i>
+                <p><strong>Computer Hardware Basics</strong></p>
+                <p>Aprendi a identificar componentes de hardware, montar máquinas e realizar diagnósticos e reparos.</p>
+                <div class="tags">
+                    <span>#Hardware</span>
+                    <span>#Cisco</span>
+                </div>
+                <a href="link-certificado-hardware" target="_blank" class="btn-certificado">Acessar</a>
+            </div>
+        </div>
+    </section>
+    
     <div data-include="../assets/components/footer.html"></div>
 
     <script src="../assets/js/include.js"></script>
@@ -77,6 +135,8 @@
     <script src="../assets/js/form.js"></script>
     <script src="../assets/js/carrosel.js"></script>
     <script src="../assets/js/maquina.js"></script>
+    <script src="../assets/js/menu.js"></script>
 
 </body>
+
 </html>

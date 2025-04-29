@@ -3,7 +3,7 @@
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .carousel-wrapper {
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1a1a4f;
+    background-color: #0f0f3c;
     padding: 20px;
 }
 
