@@ -2,12 +2,12 @@
 #contato {
     background-color: #151547;
     color: #f0f0f0;
-    padding: 60px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
 #contato h2 {
-    color: #9253e0;
+    color: #fff;
     font-size: 2.6rem;
     font-weight: bold;
     margin-top: 0px;
@@ -80,5 +80,5 @@ button:hover {
 }
 
 .social-media a:hover {
-    color: #7e5c8a;
+    color: #ffffff;
 }
