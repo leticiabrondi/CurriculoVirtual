@@ -1,5 +1,21 @@
-/* pagina inicial (index) */
+/* Fundo com gradiente */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #461e70, #5d2c91, #7639b2, #8744c8);
+    background-size: 500% 500%;
+    animation: gradientMove 20s linear infinite;
+    color: #f0f0f0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
 
+@keyframes gradientMove {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+}
+
+/* pagina inicial (index) */
 .container-principal {
     display: flex;
     flex-direction: column;
@@ -26,23 +42,35 @@ h1 {
     align-items: center;
 }
 
+/* Área da animação de digitação */
 .typing-animation {
     margin-top: 15px;
     display: flex;
     justify-content: center;
 }
 
+/* Texto digitado com cursor visível e estável */
 .typed-text {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     color: #fff;
     border-right: 2px solid #fff;
     padding-right: 5px;
-    display: flex;
+    display: inline-block;
     white-space: nowrap;
-    justify-content: center;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    animation: blink 0.8s step-end infinite;
+    overflow: hidden;
 }
 
+/* Animação de piscar o cursor */
+@keyframes blink {
+    0%, 100% { border-color: transparent; }
+    50% { border-color: #fff; }
+}
+
+/* Ícones sociais */
 .social-icons {
     margin-top: 20px;
     margin-bottom: 20px;
