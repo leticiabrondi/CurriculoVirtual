@@ -3,7 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #461e70, #5d2c91, #7639b2, #8744c8);
     background-size: 500% 500%;
-    animation: gradientMove 15s linear infinite alternate; /* altere para 'alternate' */
+    animation: gradientMove 11s linear infinite alternate; /* altere para 'alternate' */
     color: #f0f0f0;
     line-height: 1.6;
     margin: 0;
