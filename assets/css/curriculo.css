@@ -1,7 +1,7 @@
 /* --- CURRÍCULO --- */
 #dashboard {
     background-color: #0f0f3c;
-    padding: 40px 0px;
+    padding: 50px 0px;
     text-align: center;
 }
 
@@ -24,6 +24,10 @@
 
 .dashboard-buttons button:hover {
     background-color: #7943ba;
+}
+
+.btn-download i {
+    margin-right: 15px;
 }
 
 .curriculo-container {

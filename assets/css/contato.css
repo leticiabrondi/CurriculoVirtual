@@ -1,6 +1,5 @@
 /* --- CONTATO --- */
 #contato {
-    background-color: #151547;
     color: #f0f0f0;
     padding: 40px 20px;
     text-align: center;
@@ -37,7 +36,7 @@ input, textarea {
     padding: 10px;
     border: 2px solid #9253e0;
     border-radius: 5px;
-    background-color: #363670;
+    background-color: #202051;
     color: #f0f0f0;
     font-size: 1rem;
 }

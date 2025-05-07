@@ -1,65 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> PROJETOS | Dev. Letícia Brondi </title>
-    <link rel="stylesheet" href="../assets/css/global.css">
-    <link rel="stylesheet" href="../assets/css/projetos.css">
-    <link rel="icon" type="image/png" href="../assets/img/icons/favicon.png" sizes="32x32">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROJETOS | Dev. Letícia Brondi</title>
+  <link rel="stylesheet" href="../assets/css/global.css" />
+  <link rel="stylesheet" href="../assets/css/projetos.css" />
+  <link rel="icon" type="image/png" href="../assets/img/icons/favicon.png" sizes="32x32" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
+
 <body>
-  <div data-include="../assets/components/header.html"></div>  
+  <div data-include="../assets/components/header.html"></div>
 
-    <div id="projectCarousel" class="carousel-container">
-        <div class="carousel-wrapper">
-          <div class="carousel-item">
-            <div class="card">
-              <img class="card-img-top" src="../assets/img/projetos/suavemente.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Suavemente</h5>
-                <p class="card-text">Este é um card mais largo com texto de apoio abaixo como uma introdução natural para conteúdo adicional. O conteúdo é um pouco mais longo.</p>
-                <a href="" class="btn btn-primary">Ver projeto</a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card">
-              <img class="card-img-top" src="../assets/img/projetos/cardfolio.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Cardfólio</h5>
-                <p class="card-text">Este é um card mais largo com texto de apoio abaixo como uma introdução natural para conteúdo adicional. O conteúdo é um pouco mais longo.</p>
-                <a href="" class="btn btn-primary">Ver projeto</a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card">
-              <img class="card-img-top" src="../assets/img/projetos/aurora.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Aurora</h5>
-                <p class="card-text">Este é um card mais largo com texto de apoio abaixo como uma introdução natural para conteúdo adicional. O conteúdo é um pouco mais longo.</p>
-                <a href="" class="btn btn-primary">Ver projeto</a>
-              </div>
-            </div>
-          </div>
+  <section id="projetos" class="curriculo-container">
+    <h2>Meus Projetos</h2>
+    <div class="projetos-container">
+      <div class="projeto">
+        <img src="../assets/img/projetos/projeto.png" alt="Projeto SIMAD" />
+        <div class="projeto-conteudo">
+          <p><strong>Projeto</strong></p>
+          <p>Sistema para mapeamento de riscos ambientais.</p>
         </div>
-      
-        <!-- Botões de navegação -->
-        <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
-        <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
-
+        <button class="btn-projeto" data-id="simad">Ver projeto</button>
       </div>
 
-      <div data-include="../assets/components/footer.html"></div>
+      <div class="projeto">
+        <img src="../assets/img/projetos/projeto.png" alt="Projeto READ4You" />
+        <div class="projeto-conteudo">
+          <p><strong>Projeto</strong></p>
+          <p>Geração automática de README profissional.</p>
+        </div>
+        <button class="btn-projeto" data-id="read4you">Ver projeto</button>
+      </div>
 
-    <script src="../assets/js/include.js"></script>
-    <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/form.js"></script>
-    <script src="../assets/js/carrosel.js"></script>
-    <script src="../assets/js/maquina.js"></script>
-    <script src="../assets/js/menu.js"></script>
+      <div class="projeto">
+        <img src="../assets/img/projetos/projeto.png" alt="Projeto DevSpace" />
+        <div class="projeto-conteudo">
+          <p><strong>Projeto</strong></p>
+          <p>Portfólio interativo para desenvolvedores.</p>
+        </div>
+        <button class="btn-projeto" data-id="devspace">Ver projeto</button>
+      </div>
 
+      <div class="projeto">
+        <img src="../assets/img/projetos/projeto.png" alt="Projeto ClimApp" />
+        <div class="projeto-conteudo">
+          <p><strong>Projeto</strong></p>
+          <p>Aplicativo de previsão climática com IA.</p>
+        </div>
+        <button class="btn-projeto" data-id="climapp">Ver projeto</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modal-img" src="" alt="Imagem do projeto" />
+      <h3 id="modal-title">Título</h3>
+      <p id="modal-desc">Descrição detalhada do projeto.</p>
+      <a id="modal-link" href="#" target="_blank" class="btn-projeto">Acessar no GitHub</a>
+    </div>
+  </div>
+
+  <div data-include="../assets/components/footer.html"></div>
+
+  <script src="../assets/js/include.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/modal.js"></script>
 </body>
+
 </html>
