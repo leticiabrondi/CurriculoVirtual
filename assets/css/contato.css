@@ -7,10 +7,12 @@
 
 #contato h2 {
     color: #fff;
-    font-size: 2.6rem;
-    font-weight: bold;
+    font-size: 2rem;
     margin-top: 0px;
     margin-bottom: 20px;
+    border-bottom: 2px solid #9253e0;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 #contato p {
@@ -62,22 +64,57 @@ button:hover {
 }
 
 .social-media {
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
-.social-media h3 {
-    font-size: 1.3rem;
+.social-media h4 {
+    font-size: 1.2rem;
     margin-bottom: 0px;
 }
 
 .social-media a {
     color: #9253e0;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 5px;
     transition: color 0.3s;
 }
 
 .social-media a:hover {
     color: #ffffff;
+}
+
+#mensagem-sucesso {
+    display: none;
+    background-color: #1a1a4f;
+    color: #f0f0f0;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    animation: fadeIn 0.8s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+input:invalid, textarea:invalid {
+    border-color: #ff8282;
+}
+
+input:valid, textarea:valid {
+    border-color: #8cff90;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #9253e0;
 }
