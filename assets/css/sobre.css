@@ -19,10 +19,12 @@
 }
 
 .texto-sobre h2 {
-    font-size: 2.2rem;
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #ffffff;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #9253e0;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 .texto-sobre p {
@@ -64,3 +66,82 @@
     }
   }
   
+/* --- LINHA DO TEMPO --- */
+#linha-do-tempo {
+  padding: 40px 20px;
+}
+
+.container-timeline {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+#linha-do-tempo h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #9253e0;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.timeline {
+  border-left: 3px solid #7f45c6;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.evento {
+  position: relative;
+  padding-left: 20px;
+}
+
+.evento::before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  background-color: #9253e0;
+  border-radius: 50%;
+}
+
+.data {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #9253e0;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+
+.evento p {
+  font-size: 1.1rem;
+  color: #fff;
+  margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .timeline {
+      padding-left: 15px;
+  }
+
+  .evento::before {
+      left: -11px;
+  }
+
+  #linha-do-tempo h2 {
+      font-size: 1.8rem;
+  }
+
+  .evento p {
+      font-size: 1rem;
+  }
+
+  .data {
+      font-size: 1rem;
+  }
+}
