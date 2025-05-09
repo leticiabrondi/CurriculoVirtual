@@ -7,29 +7,29 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeBtn = document.querySelector(".close-btn");
   
     const projetos = {
-      simad: {
+      projeto1: {
         title: "Projeto 1",
         img: "../assets/img/projetos/projeto.png",
-        desc: "O SIMAD é um sistema colaborativo para mapeamento de riscos ambientais, desenvolvido com base nos ODS. Ele permite que comunidades compartilhem alertas em tempo real, com integração a sensores e IA para apoio à Defesa Civil.",
-        link: "https://github.com/seuusuario/simad"
+        desc: "Criei esse projeto pra explorar mais minha criatividade e treinar o uso de [ferramenta/linguagem]. A ideia era fazer algo que fosse bonito, funcional e que tivesse a ver com o que tô aprendendo. Usei [tecnologias] e foquei bastante em [interface, responsividade, organização, etc.]. Foi um exercício massa de [ex: colocar em prática tudo que venho estudando] e me fez perceber o quanto evoluí em [área X].",
+        link: "https://github.com/leticiabrondi"
       },
-      read4you: {
-        title: "READ4You",
-        img: "img/read4you-capa.png",
-        desc: "O READ4You analisa arquivos de projetos e gera automaticamente um README.md profissional para o GitHub. Ideal para agilizar a documentação de repositórios.",
-        link: "https://github.com/seuusuario/read4you"
+      projeto2: {
+        title: "Projeto 2",
+        img: "../assets/img/projetos/projeto.png",
+        desc: "Criei esse projeto pra explorar mais minha criatividade e treinar o uso de [ferramenta/linguagem]. A ideia era fazer algo que fosse bonito, funcional e que tivesse a ver com o que tô aprendendo. Usei [tecnologias] e foquei bastante em [interface, responsividade, organização, etc.]. Foi um exercício massa de [ex: colocar em prática tudo que venho estudando] e me fez perceber o quanto evoluí em [área X].",
+        link: "https://github.com/leticiabrondi"
       },
-      devspace: {
-        title: "DevSpace",
-        img: "img/devspace-capa.png",
-        desc: "DevSpace é uma plataforma de portfólio para devs. Oferece uma interface personalizada, integração com GitHub e layout responsivo para apresentar seus projetos com estilo.",
-        link: "https://github.com/seuusuario/devspace"
+      projeto3: {
+        title: "Projeto 3",
+        img: "../assets/img/projetos/projeto.png",
+        desc: "Criei esse projeto pra explorar mais minha criatividade e treinar o uso de [ferramenta/linguagem]. A ideia era fazer algo que fosse bonito, funcional e que tivesse a ver com o que tô aprendendo. Usei [tecnologias] e foquei bastante em [interface, responsividade, organização, etc.]. Foi um exercício massa de [ex: colocar em prática tudo que venho estudando] e me fez perceber o quanto evoluí em [área X].",
+        link: "https://github.com/leticiabrondi"
       },
-      climapp: {
-        title: "ClimApp",
-        img: "img/climapp-capa.png",
-        desc: "ClimApp é um app de previsão do tempo com IA e dados meteorológicos em tempo real. Permite alertas personalizados e análises climáticas locais.",
-        link: "https://github.com/seuusuario/climapp"
+      projeto4: {
+        title: "Projeto 4",
+        img: "../assets/img/projetos/projeto.png",
+        desc: "Criei esse projeto pra explorar mais minha criatividade e treinar o uso de [ferramenta/linguagem]. A ideia era fazer algo que fosse bonito, funcional e que tivesse a ver com o que tô aprendendo. Usei [tecnologias] e foquei bastante em [interface, responsividade, organização, etc.]. Foi um exercício massa de [ex: colocar em prática tudo que venho estudando] e me fez perceber o quanto evoluí em [área X].",
+        link: "https://github.com/leticiabrondi"
       }
     };
   

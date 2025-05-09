@@ -7,7 +7,7 @@
 
 #contato h2 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-top: 0px;
     margin-bottom: 20px;
     border-bottom: 2px solid #9253e0;
@@ -16,9 +16,9 @@
 }
 
 #contato p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
-    color: #e0e0e0;
+    font-size: 1.18rem;
+    margin-bottom: 40px;
+    color: #fff;
 }
 
 .form-group {
@@ -27,20 +27,20 @@
 
 label {
     display: block;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #e0e0e0;
-    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight:500;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 input, textarea {
-    width: 80%;
+    width: 50%;
     padding: 10px;
     border: 2px solid #9253e0;
     border-radius: 5px;
-    background-color: #202051;
+    background-color: #222258;
     color: #f0f0f0;
-    font-size: 1rem;
+    font-size: 1.18rem;
 }
 
 textarea {
@@ -53,13 +53,14 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
-    background-color: #7e5c8a;
+    background-color: #813fd0;
     transform: scale(1.05);
 }
 
@@ -68,13 +69,14 @@ button:hover {
 }
 
 .social-media h4 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
     margin-bottom: 0px;
 }
 
 .social-media a {
     color: #9253e0;
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     text-decoration: none;
     margin: 0 5px;
     transition: color 0.3s;

@@ -19,7 +19,7 @@
 }
 
 .texto-sobre h2 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: #fff;
   margin-bottom: 20px;
   border-bottom: 2px solid #9253e0;
@@ -28,16 +28,39 @@
 }
 
 .texto-sobre p {
-    font-size: 1.1rem;
-    color: #e0e0e0;
+    font-size: 1.18rem;
+    color: #fff;
 }
 
 .icon-direita {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.social-media {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 2.4rem;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #9253e0;
 }
 
 @media (max-width: 768px) {
@@ -53,7 +76,7 @@
     }
   
     .texto-sobre h2 {
-      font-size: 1.8rem;
+      font-size: 2.3rem;
     }
   
     .texto-sobre p {
@@ -66,6 +89,7 @@
     }
   }
   
+
 /* --- LINHA DO TEMPO --- */
 #linha-do-tempo {
   padding: 40px 20px;
@@ -77,9 +101,9 @@
 }
 
 #linha-do-tempo h2 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   border-bottom: 2px solid #9253e0;
   display: inline-block;
   padding-bottom: 5px;
@@ -111,14 +135,14 @@
 
 .data {
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #9253e0;
   margin-bottom: 6px;
   display: inline-block;
 }
 
 .evento p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #fff;
   margin: 0;
 }

@@ -6,7 +6,7 @@
 }
 
 .curriculo-container h2 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: #fff;
     margin-bottom: 20px;
     border-bottom: 2px solid #9253e0;
@@ -49,16 +49,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #f0f0f0;
+    color: #fff;
 }
 
 .projeto-conteudo p {
     margin: 5px 0;
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
 .projeto-conteudo strong {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: #ffffff;
 }
 
@@ -66,12 +66,12 @@
 .btn-projeto {
     background-color: #9253e0;
     color: #ffffff;
-    text-decoration: none;
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
     transition: background-color 0.3s ease;
-    font-size: 0.95rem;
+    font-size: 1rem;
+    font-weight: 550;
     text-align: center;
     margin: 20px;
 }
@@ -103,7 +103,7 @@
     background-color: #1a1a4f;
     padding: 2rem;
     border-radius: 20px;
-    max-width: 700px;
+    max-width: 800px;
     width: 90%;
     position: relative;
     text-align: center;
@@ -120,14 +120,14 @@
   }
   
   .modal-content h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 0;
     color: #9253e0;
   }
   
   .modal-content p {
-    font-size: 1rem;
-    margin-bottom: 1.8rem;
+    font-size: 1.18rem;
+    margin-bottom: 2.5rem;
     color: #f0f0f0;
   }
   
@@ -137,7 +137,7 @@
     color: white;
     border: none;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 550;
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
@@ -151,13 +151,13 @@
     top: 12px;
     right: 18px;
     font-size: 1.5rem;
-    color: #666;
+    color: #f0f0f0;
     cursor: pointer;
     transition: color 0.3s;
   }
   
   .close-btn:hover {
-    color: #000;
+    color: #d5b5ff;
   }
   
   /* Animação */
