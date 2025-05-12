@@ -1,4 +1,4 @@
-# 💼 Projeto e currículo virtual — Letícia Brondi
+# 💼 Projeto e currículo virtual
 
 Hello Devs, sejam bem-vindos(as) ao meu currículo online! Aqui você encontra uma visão geral sobre mim, minhas experiências, habilidades, cursos, certificados e projetos. Este espaço foi pensado pra ser leve, direto e visual, refletindo minha personalidade e trajetória profissional.
 
