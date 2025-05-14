@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const projetos = {
       projeto1: {
         title: "Suave Mente",
-        img: "../../assets/img/projetos/suavemente.png",
+        img: "../img/projetos/suavemente.png",
         desc: "Criei esse projeto como parte de uma empresa júnior no meu curso técnico de Multimeios, com o objetivo de explorar minha criatividade e desenvolver habilidades técnicas em programação e hospedagem. A ideia era construir uma plataforma socioemocional voltada para alunos do ensino médio, oferecendo apoio e recursos acessíveis para o bem-estar estudantil. Trabalhei diretamente na parte de desenvolvimento, estruturação do site e hospedagem, usando tecnologias como HTML, CSS e JavaScript. Foi um exercício muito rico de colaboração e prática profissional, que me fez perceber o quanto evoluí na construção de soluções digitais com impacto social.",
         link: "https://suavementeco.github.io/suavemente/"
       },
